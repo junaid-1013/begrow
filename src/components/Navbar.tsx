@@ -8,7 +8,7 @@ export default function Navbar() {
     const [state, setState] = React.useState(false)
 
     const menus = [
-        { title: "Home", path: "#" },
+        { title: "Home", path: "#home" },
         { title: "About", path: "#about" },
         { title: "Services", path: "#services" },
         { title: "Projects", path: "#projects" },
@@ -17,7 +17,7 @@ export default function Navbar() {
     ]
 
     return (
-        <nav className="bg-white w-full border-b md:border-0">
+        <nav className="bg-white w-full border-b md:border-0 fixed">
             <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <Link href="/">

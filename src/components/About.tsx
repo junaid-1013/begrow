@@ -36,7 +36,7 @@ const AnimateNumber = ({ value }: any) => {
 export const About = () => {
     return (
         <>
-            <div className="flex justify-around col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3 px-4 sm:px-0">
+            <div id="about" className="flex justify-around col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3 px-4 sm:px-0">
                 <div className="flex flex-col justify-center xl:items-center">
                     <span className="inline-block font-bold text-[2.5rem] leading-none md:text-6xl sm:text-5xl">
                         <AnimateNumber value={5} />k+
