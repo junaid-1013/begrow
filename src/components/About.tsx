@@ -33,7 +33,7 @@ export const About = () => {
             <div className="flex justify-around col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3 px-4 sm:px-0">
                 <div className="flex flex-col justify-center xl:items-center">
                     <span className="inline-block font-bold text-[2.5rem] leading-none md:text-6xl sm:text-5xl">
-                        <AnimateNumber value={50} />+
+                        <AnimateNumber value={5} />k+
                     </span>
                     <h2 className="text-base font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base">
                         satisfied clinets
@@ -42,19 +42,19 @@ export const About = () => {
 
                 <div className="flex flex-col justify-center xl:items-center">
                     <span className="inline-block font-bold text-[2.5rem] leading-none md:text-6xl sm:text-5xl">
-                        <AnimateNumber value={10} />+
+                        <AnimateNumber value={350} />+
                     </span>
                     <h2 className="text-base font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base">
-                        projects completed
+                        running projects
                     </h2>
                 </div>
 
                 <div className="flex flex-col justify-center xl:items-center">
                     <span className="inline-block font-bold text-[2.5rem] leading-none md:text-6xl sm:text-5xl">
-                        <AnimateNumber value={3} />+
+                        <AnimateNumber value={900} />+
                     </span>
                     <h2 className="text-base font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base">
-                        years of experience
+                        projects completed
                     </h2>
                 </div>
             </div>
