@@ -1,10 +1,16 @@
 'use client';
 import { useEffect, useRef } from "react";
 import { useSpring, useInView, useMotionValue } from "framer-motion";
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion"
 
 const AnimateNumber = ({ value }: any) => {
     // const ref = useRef(null);
-    const ref = useRef<HTMLSpanElement | null>(null); 
+    const ref = useRef<HTMLSpanElement | null>(null);
 
     const motionValue = useMotionValue(0);
     const springValue = useSpring(motionValue, { duration: 3000 });
@@ -58,6 +64,43 @@ export const About = () => {
                     </h2>
                 </div>
             </div>
+            <section className="relative pt-12 bg-blueGray-50">
+                <div className="items-center flex flex-wrap">
+                    <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+                        <img alt="..." className="max-w-full rounded-lg shadow-lg" src="https://www.sdocs.com/wp-content/uploads/Salesforce-For-Financial-Services.jpg" />
+                    </div>
+                    <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
+                        <div className="md:pr-12">
+                            <h3 className="text-3xl font-semibold">AI-Powered Strategies for Business Growth!</h3>
+                            <h4 className="text-2xl font-semibold">Best CRM/Data driven Sales</h4>
+                            <p className="mt-4 text-lg leading-relaxed text-blueGray-500 text-justify">
+                                We are providing the best CRM data-driven sales approach leverages customer relationship management technology
+                                and data analytics to make informed, personalized sales decisions, resulting in more effective and targeted sales efforts.
+                            </p>
+                            <Accordion type="single" collapsible className="w-full">
+                                <AccordionItem value="item-1">
+                                    <AccordionTrigger className="font-bold text-md">Dedicated AI Team</AccordionTrigger>
+                                    <AccordionContent>
+                                        Our AI team is a group of experts pioneering AI solutions to drive innovation and solve complex challenges across industries.
+                                    </AccordionContent>
+                                </AccordionItem>
+                                <AccordionItem value="item-2">
+                                    <AccordionTrigger className="font-bold text-md">Developing Strategy</AccordionTrigger>
+                                    <AccordionContent>
+                                        We are providing strategic solution to companies. It involves setting clear goals, analyzing data, and making informed decisions to achieve long-term objectives.
+                                    </AccordionContent>
+                                </AccordionItem>
+                                <AccordionItem value="item-3">
+                                    <AccordionTrigger className="font-bold text-md">24/7 Hours Support</AccordionTrigger>
+                                    <AccordionContent>
+                                        24/7 access round-the-clock availability, ensuring you can reach or use something at any time, day or night.
+                                    </AccordionContent>
+                                </AccordionItem>
+                            </Accordion>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
