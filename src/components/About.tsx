@@ -36,37 +36,9 @@ const AnimateNumber = ({ value }: any) => {
 export const About = () => {
     return (
         <>
-            <div id="about" className="flex justify-around col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3 px-4 sm:px-0">
-                <div className="flex flex-col justify-center xl:items-center">
-                    <span className="inline-block font-bold text-[2.5rem] leading-none md:text-6xl sm:text-5xl">
-                        <AnimateNumber value={5} />k+
-                    </span>
-                    <h2 className="text-base font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base">
-                        satisfied clinets
-                    </h2>
-                </div>
-
-                <div className="flex flex-col justify-center xl:items-center">
-                    <span className="inline-block font-bold text-[2.5rem] leading-none md:text-6xl sm:text-5xl">
-                        <AnimateNumber value={350} />+
-                    </span>
-                    <h2 className="text-base font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base">
-                        running projects
-                    </h2>
-                </div>
-
-                <div className="flex flex-col justify-center xl:items-center">
-                    <span className="inline-block font-bold text-[2.5rem] leading-none md:text-6xl sm:text-5xl">
-                        <AnimateNumber value={900} />+
-                    </span>
-                    <h2 className="text-base font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base">
-                        projects completed
-                    </h2>
-                </div>
-            </div>
-            <section className="relative pt-12 bg-blueGray-50">
-                <div className="items-center flex flex-wrap">
-                    <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <section id="about" className="relative pt-12 bg-blueGray-50">
+                <div className="items-center flex flex-wrap mb-8">
+                    <div className="w-full md:w-4/12 ml-auto mr-auto px-4 mb-4 md:mb-0">
                         <img alt="..." className="max-w-full rounded-lg shadow-lg" src="https://www.sdocs.com/wp-content/uploads/Salesforce-For-Financial-Services.jpg" />
                     </div>
                     <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -98,6 +70,34 @@ export const About = () => {
                                 </AccordionItem>
                             </Accordion>
                         </div>
+                    </div>
+                </div>
+                <div className="flex justify-around col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3 px-4 sm:px-0">
+                    <div className="flex flex-col justify-center xl:items-center">
+                        <span className="inline-block font-bold text-4xl leading-none md:text-6xl sm:text-5xl">
+                            <AnimateNumber value={5} />k+
+                        </span>
+                        <h2 className="text-base font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base">
+                            satisfied clinets
+                        </h2>
+                    </div>
+
+                    <div className="flex flex-col justify-center xl:items-center">
+                        <span className="inline-block font-bold text-4xl leading-none md:text-6xl sm:text-5xl">
+                            <AnimateNumber value={350} />+
+                        </span>
+                        <h2 className="text-base font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base">
+                            running projects
+                        </h2>
+                    </div>
+
+                    <div className="flex flex-col justify-center xl:items-center">
+                        <span className="inline-block font-bold text-4xl leading-none md:text-6xl sm:text-5xl">
+                            <AnimateNumber value={900} />+
+                        </span>
+                        <h2 className="text-base font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base">
+                            projects completed
+                        </h2>
                     </div>
                 </div>
             </section>
