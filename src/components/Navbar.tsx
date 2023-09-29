@@ -12,7 +12,6 @@ export default function Navbar() {
         { title: "About", path: "#about" },
         { title: "Team", path: "#team" },
         { title: "Services", path: "#services" },
-        { title: "Projects", path: "#projects" },
         { title: "Blogs", path: "#blogs" },
         { title: "Contact", path: "#contact" },
     ]
@@ -50,7 +49,7 @@ export default function Navbar() {
                             <p
                                 className="w-full outline-none appearance-none placeholder-gray-500 text-gray-500 sm:w-auto"
 
-                            >+92-324-9534084</p>
+                            >(+92)324 9534084</p>
                         </div>
                     </ul>
                 </div>

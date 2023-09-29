@@ -11,7 +11,7 @@ const members = [
         name: "Muhammad Haris",
         title: "AI Engineer",
         imageSrc:
-            "https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80",
+            "/member1.jpeg",
     },
     {
         id: 3,
@@ -35,13 +35,14 @@ const OurTeam = () => {
         <>
             <div id="team" className="flex items-center justify-center min-h-screen bg-white pt-8">
                 <div className="flex flex-col mt-8">
+                    <div className="inline-flex items-center justify-center w-full px-8 md:px-12 xl:px-0 lg:px-20">
+                        <hr className="w-full h-px my-8 bg-purple-400 border-0"/>
+                        <span className="absolute px-3 font-bold text-lg text-purple-600 -translate-x-1/2 bg-white left-1/2">OUR TEAM</span>
+                    </div>
 
                     <div className="container max-w-7xl px-4">
                         <div className="flex flex-wrap justify-center text-center mb-24">
                             <div className="w-full lg:w-6/12 px-4">
-                                <p className="text-purple-600 text-lg font-bold mb-4">
-                                    OUR TEAM
-                                </p>
                                 <h1 className="text-gray-900 text-4xl font-bold mb-8">
                                     Meet the Team
                                 </h1>

@@ -36,7 +36,7 @@ const AnimateNumber = ({ value }: any) => {
 export const About = () => {
     return (
         <>
-            <section id="about" className="relative pt-12 bg-blueGray-50">
+            <section id="about" className="relative pt-12">
                 <div className="items-center flex flex-wrap mb-8">
                     <div className="w-full md:w-4/12 ml-auto mr-auto px-4 mb-4 md:mb-0">
                         <img alt="..." className="max-w-full rounded-lg shadow-lg" src="https://www.sdocs.com/wp-content/uploads/Salesforce-For-Financial-Services.jpg" />

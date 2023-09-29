@@ -3,17 +3,20 @@ import { Store, Code2, Rocket, Bot } from "lucide-react"
 const Services = () => {
     return (
         <>
-            <div id="services"  className="flex flex-wrap justify-center text-center">
-                <div className="w-full lg:w-6/12 px-4">
-                    <p className="text-purple-600 text-lg font-bold mb-4">
+            <div id="services" className="flex flex-wrap justify-center text-center">
+                <div className="inline-flex items-center justify-center w-full px-8 md:px-12 xl:px-32 lg:px-20">
+                    <hr className="w-full h-px my-8 bg-purple-400 border-0" />
+                    <span className="absolute px-3 font-bold text-lg text-purple-600 -translate-x-1/2 bg-white left-1/2">
                         OUR SERVICES
-                    </p>
+                    </span>
+                </div>
+                <div className="w-full lg:w-6/12 px-4 pt-8">
                     <p className="text-gray-700 text-lg font-light">
                         AI-Powered Strategies for Business Growth!
                     </p>
                 </div>
             </div>
-            <div className="xl:px-28 flex flex-wrap p-8 justify-center">
+            <div className="xl:px-28 flex flex-wrap p-8 justify-center pb-0">
 
                 <div className="w-full px-4 md:w-1/2 lg:w-1/3">
                     <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9">
