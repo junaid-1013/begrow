@@ -43,7 +43,8 @@ export const About = () => {
                     </div>
                     <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                         <div className="md:pr-12">
-                            <h3 className="text-3xl font-semibold">AI-Powered Strategies for Business Growth!</h3>
+                            <p className="text-purple-600 text-lg font-bold mb-2">ABOUT</p>
+                            <h3 className="text-3xl font-semibold mb-2">AI-Powered Strategies for Business Growth!</h3>
                             <h4 className="text-2xl font-semibold">Best CRM/Data driven Sales</h4>
                             <p className="mt-4 text-lg leading-relaxed text-blueGray-500 text-justify">
                                 We are providing the best CRM data-driven sales approach leverages customer relationship management technology

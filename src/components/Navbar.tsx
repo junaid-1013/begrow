@@ -10,6 +10,7 @@ export default function Navbar() {
     const menus = [
         { title: "Home", path: "#home" },
         { title: "About", path: "#about" },
+        { title: "Team", path: "#team" },
         { title: "Services", path: "#services" },
         { title: "Projects", path: "#projects" },
         { title: "Blogs", path: "#blogs" },

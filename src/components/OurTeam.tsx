@@ -33,26 +33,24 @@ const members = [
 const OurTeam = () => {
     return (
         <>
-            <div className="flex items-center justify-center min-h-screen bg-white pt-8">
+            <div id="team" className="flex items-center justify-center min-h-screen bg-white pt-8">
                 <div className="flex flex-col mt-8">
-                    {/* <!-- Meet the Team --> */}
+
                     <div className="container max-w-7xl px-4">
-                        {/* <!-- Section Header --> */}
                         <div className="flex flex-wrap justify-center text-center mb-24">
                             <div className="w-full lg:w-6/12 px-4">
-                                {/* <!-- Header --> */}
+                                <p className="text-purple-600 text-lg font-bold mb-4">
+                                    OUR TEAM
+                                </p>
                                 <h1 className="text-gray-900 text-4xl font-bold mb-8">
                                     Meet the Team
                                 </h1>
-
-                                {/* <!-- Description --> */}
                                 <p className="text-gray-700 text-lg font-light">
                                     With over 100 years of combined experience, we've got a well-seasoned team at the helm.
                                 </p>
                             </div>
                         </div>
 
-                        {/* <!-- Team Members --> */}
                         <div className="flex flex-wrap">
                             {members.map((member) => (
                                 <div
